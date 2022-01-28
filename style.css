@@ -1,0 +1,44 @@
+body {
+    background-size: cover;
+}
+
+.heading {
+    font-size: 30px;
+    width: 100%;
+    margin: 0px;
+    font-weight: bold;
+}
+
+#start,
+#number_of_objects,
+#status {
+    font-size: 30;
+    font-weight: bold;
+    border-radius: 15px;
+    border-color: darkmagenta;
+    border-width: 5px;
+}
+
+#start:hover {
+    color: darkmagenta;
+    font-size: 35px;
+}
+
+.copy_right_footer {
+    position: fixed;
+    bottom: 0;
+    background-color: white;
+    width: 100%;
+    text-align: center;
+    line-height: 3;
+    font-size: 20px;
+    font-weight: bold;
+    font-style: italic;
+}
+
+canvas {
+    border: 2px solid white;
+    border-radius: 10px;
+    margin-top: 130px;
+    box-shadow: 5px 5px 5px white;
+}
